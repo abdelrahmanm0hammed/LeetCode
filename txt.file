@@ -1,0 +1,12 @@
+x [1, ]
+
+    j = len(x)-1
+    for i in range(len(x)):
+        
+        if i != j:
+            if x(i) == x(j):
+                j = j-1
+            else:
+                return False
+
+    return True
